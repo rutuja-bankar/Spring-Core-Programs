@@ -13,7 +13,7 @@
 <!-- *************************************************************** -->
 
 <bean class="com.springcore1.Student" name="studBean" >
-	<property name="studentName" value="Rahul"></property>
+	<property name="studentName" value="Rutuja"></property>
 	
 	<property name="phones">
 		<list>
