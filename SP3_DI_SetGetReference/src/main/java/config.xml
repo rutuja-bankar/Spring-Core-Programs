@@ -19,8 +19,8 @@
 </bean>
 
 <bean class="com.springcore1.Student" name="studBean">
-	<property name="id" value="1"></property>
-	<property name="name" value="Rahul"></property>
+	<property name="id" value="12177"></property>
+	<property name="name" value="Rutuja"></property>
 	<property name="add" ref="addressBean"></property>
 </bean>
  
