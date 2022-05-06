@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!-- ***************************************************************
+*** Spring Bean Lifecycle Using Annotation ***
+@PostConstruct and @PreConstruct annotations are available till Java 8
+So we have add new dependency in POM file 
+*************************************************************** -->
+
+<!-- *** By default all annotations are disabled, so we have to enable all annotations  *** -->
+	<context:annotation-config></context:annotation-config>
+	
+
+
+	<bean class="com.springcore1.Student" name="beanStudent">
+		<property name="roll" value="1" />
+		<property name="name" value="Abcd" />
+	</bean>
+
+</beans>
