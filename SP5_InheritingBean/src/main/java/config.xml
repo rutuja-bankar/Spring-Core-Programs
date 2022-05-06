@@ -13,8 +13,8 @@
 <!-- *************************************************************** -->
 
 <bean class="com.springcore1.Student" name="studBean1">
-	<constructor-arg name="id" value="26"/>
-	<constructor-arg name="name" value="Rahul"/>
+	<constructor-arg name="id" value="12177"/>
+	<constructor-arg name="name" value="Rutuja"/>
 </bean>
 
 <bean class="com.springcore1.Address" name="addressBean" >
