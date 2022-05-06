@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+<!-- *************************************************************** -->
+<!-- 	Injecting Primitive Data Type Using SETTER & GETTER Methods  -->
+<!-- *************************************************************** -->
+
+
+<!-- 	Inject Primitive Data Type - Method - 3 => By using p schema  -->
+  <bean class="com.springcore1.Student" name="studBean1" p:studId="1" p:studName="Rutuja" p:studAddress="Baramati" />
+  <bean class="com.springcore1.Student" name="studBean2" p:studId="2" p:studName="vaishnavi" p:studAddress="Pune" />
+
+
+<!-- 	Inject Primitive Data Type - Method - 2 => Value as Attribute  -->
+<!--  <bean class="com.springcore1.Student" name="studBean1">
+ 	<property name="studId" value="1" />
+ 	<property name="studName" value="Rutuja" />
+ 	<property name="studAddress" value="Baramati" />
+ </bean>
+ --> 
+ 
+
+<!-- 	Inject Primitive Data Type - Method - 1 => Value as Tag/Element  -->
+<!--
+ <bean class="com.springcore1.Student" name="studBean1">
+ 	<property name="studId">
+ 		<value>1</value>
+ 	</property>
+ 	<property name="studName">
+ 		<value>Rutuja</value>
+ 	</property>
+ 	<property name="studAddress">
+ 		<value>Baramati</value>
+ 	</property>
+ </bean>
+  -->
+ 
+ 
+</beans>
